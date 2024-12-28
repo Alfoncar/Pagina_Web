@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../img/Logo2.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('../img/matrix.gif') no-repeat center center fixed; /* Imagen de fondo o GIF */
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background-color: #224871; /* Azul oscuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #6ba1cc; /* Azul claro */
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+            background-color: rgba(34, 72, 113, 0.8); /* Azul oscuro con opacidad */
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .section h2 {
+            color: #ecf0f1; /* Blanco suave */
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Recuadros principales */
+        .card {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            margin: 15px;
+            background-color: #030a19; /* Fondo negro muy oscuro */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 15px;
+            font-size: 1.3rem;
+            color: #ecf0f1; /* Blanco suave */
+        }
+        .card p {
+            font-size: 1rem;
+            color: #bdc3c7; /* Texto más suave */
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        /* Recuadros para las amenazas (Phishing, Malware, DDoS) */
+        .card.amenaza {
+            background-color: #224871; /* Azul oscuro */
+        }
+        footer {
+            background-color: #224871; /* Azul oscuro */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer .footer-links a {
+            color: #6ba1cc; /* Azul claro */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ciberseguridad</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de mí</a></li>
+                <li><a href="topic.html">Tema</a></li>
+                <li><a href="net.html">Red</a></li>
+                <li><a href="contacts.html">Contacto</a></li>
+                <li><a href="degree.html">Grado</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Sección 1: Introducción a la Ciberseguridad -->
+        <section class="section" id="introduccion">
+            <h2>¿Qué es la Ciberseguridad?</h2>
+            <p>La ciberseguridad es el conjunto de prácticas, tecnologías y procesos diseñados para proteger las computadoras, servidores, redes y datos de ataques, daños o accesos no autorizados. A medida que la digitalización avanza, la ciberseguridad se ha vuelto crucial en el mundo conectado en el que vivimos. Sin una infraestructura adecuada de seguridad, los individuos y las organizaciones se exponen a una variedad de amenazas que pueden poner en peligro su información personal, profesional y financiera.</p>
+            <p>La ciberseguridad no solo se refiere a la protección contra ataques informáticos, sino también a la preservación de la integridad, disponibilidad y confidencialidad de los datos. Las amenazas a la ciberseguridad son cada vez más sofisticadas y, por ello, es necesario entender cómo protegerse adecuadamente.</p>
+            <img src="../img/cyber.jpg" alt="Ciberseguridad" style="width: 100%; max-width: 900px; border-radius: 8px;">
+        </section>
+        
+        <!-- Sección 2: Principales Amenazas de Ciberseguridad -->
+        <section class="section" id="amenazas">
+            <h2>Principales Amenazas de Ciberseguridad</h2>
+            <div class="card amenaza">
+                <img src="../img/phising.png" alt="Phishing">
+                <h3>Phishing</h3>
+                <p>El phishing es una de las amenazas más comunes en la ciberseguridad. Implica el uso de correos electrónicos, mensajes de texto o sitios web fraudulentos que imitan fuentes legítimas, con el objetivo de engañar a los usuarios para que revelen información confidencial, como contraseñas, detalles bancarios o datos personales. A menudo, estos ataques se aprovechan de la confianza de los usuarios y explotan su falta de conocimiento.</p>
+            </div>
+            <div class="card amenaza">
+                <img src="../img/ransomware.jpg" alt="Malware">
+                <h3>Malware</h3>
+                <p>El malware, o software malicioso, es un tipo de software diseñado para dañar o explotar un sistema o red. Los tipos más comunes incluyen virus, troyanos, spyware y ransomware. El malware puede robar información, corromper datos o incluso tomar control de un sistema. Es esencial contar con un software antivirus actualizado y practicar hábitos seguros en línea para evitar la infección por malware.</p>
+            </div>
+            <div class="card amenaza">
+                <img src="../img/ddos.png" alt="Ataques DDoS">
+                <h3>Ataques DDoS</h3>
+                <p>Los ataques de Denegación de Servicio Distribuida (DDoS) son un tipo de ataque en el que múltiples sistemas comprometidos atacan un solo objetivo, sobrecargándolo con una cantidad de tráfico tan masiva que el sistema objetivo se vuelve incapaz de manejarla. El propósito es hacer que un sitio web o servicio en línea quede fuera de servicio. Estos ataques pueden tener consecuencias devastadoras para las empresas que dependen de sus plataformas en línea.</p>
+            </div>
+        </section>
+        
+        <!-- Sección 3: Buenas Prácticas en Ciberseguridad -->
+        <section class="section" id="buenas-practicas">
+            <h2>Buenas Prácticas de Ciberseguridad</h2>
+            <p>Para protegerte de las amenazas en línea, es importante seguir ciertas buenas prácticas de ciberseguridad. Algunas de las recomendaciones clave incluyen:</p>
+            <ul style="text-align: left; max-width: 800px; margin-left: auto; margin-right: auto;">
+                <li><strong>Usar contraseñas fuertes y únicas</strong>: Las contraseñas deben ser complejas y únicas para cada cuenta. Se recomienda usar una combinación de letras mayúsculas, minúsculas, números y símbolos. Las contraseñas deben tener al menos 12 caracteres.</li>
+                <li><strong>Habilitar la autenticación de dos factores (2FA)</strong>: La 2FA añade una capa adicional de seguridad al requerir que el usuario proporcione un segundo factor de autenticación, como un código enviado a su dispositivo móvil, además de su contraseña.</li>
+                <li><strong>Actualizar regularmente los sistemas y software</strong>: Las actualizaciones frecuentes de software y sistemas operativos corrigen vulnerabilidades conocidas y mejoran la seguridad general de los dispositivos y plataformas.</li>
+                <li><strong>Evitar hacer clic en enlaces sospechosos</strong>: Es fundamental ser cauteloso con los correos electrónicos o mensajes de fuentes desconocidas. Verificar la autenticidad de los enlaces antes de hacer clic puede prevenir el acceso no autorizado a tus datos personales.</li>
+                <li><strong>Realizar copias de seguridad regularmente</strong>: Las copias de seguridad pueden salvar tu información en caso de un ataque de ransomware o cualquier otro evento catastrófico que dañe los archivos importantes. Es recomendable almacenar estas copias de forma segura, fuera de línea o en la nube.</li>
+            </ul>
+        </section>
+
+        <!-- Sección 4: Protección de la Privacidad en Línea -->
+        <section class="section" id="privacidad">
+            <h2>Cómo Proteger tu Privacidad en Línea</h2>
+            <p>La protección de la privacidad en línea es esencial, ya que estamos constantemente generando y compartiendo datos personales en Internet. Para proteger tu privacidad:</p>
+            <ul style="text-align: left; max-width: 800px; margin-left: auto; margin-right: auto;">
+                <li><strong>Usa navegadores y motores de búsqueda enfocados en la privacidad</strong>: Los navegadores como Firefox o Brave y motores de búsqueda como DuckDuckGo priorizan la protección de tu información personal.</li>
+                <li><strong>Revisa las configuraciones de privacidad de tus cuentas en redes sociales</strong>: Ajusta las configuraciones de privacidad para asegurarte de que solo las personas que eliges puedan ver tu información.</li>
+                <li><strong>Utiliza una VPN para cifrar tu tráfico en línea</strong>: Una Red Privada Virtual (VPN) encripta tu conexión a Internet, protegiendo tus datos de posibles vigilantes y hackers.</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Guardia de Carrera Blanca</p>
+    </footer>
+</body>
+</html>
