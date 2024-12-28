@@ -1,0 +1,11 @@
+# Ignorar la carpeta Desktop
+Desktop/
+
+# Ignorar la carpeta pagina_web
+Pagina_Web/
+
+# Pero no ignorar los archivos dentro de pagina_web
+!pagina_Web/index.html
+
+# Y no ignorar los archivos dentro de public (que está dentro de pagina_web)
+!Pagina_Web/public/
