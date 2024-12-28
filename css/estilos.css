@@ -1,0 +1,484 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030a19;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+header {
+    background-color: #224871; 
+    color: white;
+    text-align: center;
+    padding: 2rem; 
+    position: relative;
+    z-index: 10; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block; 
+}
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #224871; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+}
+
+.blue-footer {
+    background-color: #224871;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+}
+/* Estilos generales para la página about.html */
+.about-page body {
+    background-color: #030a19;
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.about-page header {
+    background-color: #224871;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-page main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;  
+    text-align: center;
+    padding: 20px;
+}
+
+.about-page main p {
+    max-width: 800px;
+    margin: 10px 0;
+}
+
+.about-page .image-container img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;     
+    height: auto;    
+    object-fit: contain; 
+    max-height: 600px; 
+}
+
+.about-page footer {
+    background-color: #224871;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+body {
+    padding-bottom: 100px; 
+}
+
+main {
+    padding-bottom: 150px; 
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.cv-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cv-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;           
+    margin: 0;              
+}
+
+ul li a {
+    color: #3498db;         
+    text-decoration: none;  
+    font-size: 16px;       
+    padding: 10px;        
+    display: inline-block;  
+    transition: color 0.3s; 
+}
+
+ul li a:hover {
+    color: #2ecc71;  
+    text-decoration: underline;  
+}
+
+.contact-page main {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center; 
+}
+
+.contact-page form {
+    background-color: #224871;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-page form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-page form input,
+.contact-page form textarea,
+.contact-page form button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-page form textarea {
+    resize: none; 
+}
+
+.contact-page form button {
+    background-color: #6ba1cc;
+    color: white;
+    cursor: pointer;
+    width: 50%; 
+    padding: 10px;
+}
+
+.contact-page form button:hover {
+    background-color: #5a8db2;
+}
+
+.contact-page main h2,
+.contact-page main p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Estilos generales para la página degree.html */
+.degree-page body {
+    font-family: Arial, sans-serif;
+    background: url('/img/matrix.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.degree-page {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/matrix.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Header y Footer */
+.degree-page header, 
+.degree-page footer {
+    background-color: #224871;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.degree-page footer p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.degree-page main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.degree-page section {
+    background-color: rgba(3, 10, 25, 0.85);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1000px; 
+    width: 100%;  
+}
+
+.degree-page section h2 {
+    color: #6ba1cc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.degree-page section h3 {
+    color: #1b4b7b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.degree-page .course-list {
+    background-color: rgba(3, 10, 25, 0.85); 
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1000px; 
+    width: 100%;
+}
+
+.degree-page .course-list h3 {
+    color: #1b4b7b; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.degree-page .course-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.degree-page .course-list li {
+    text-align: left; 
+    margin-bottom: 10px;
+}
+
+.degree-page .course-list li span {
+    font-weight: bold;
+    color: #6ba1cc;
+}
+
+.degree-page .btn {
+    display: inline-block;
+    background-color: #6ba1cc;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.degree-page .btn:hover {
+    background-color: #1b4b7b;
+}
+
+/* Estilos generales para la página fii.html */
+.fii-page {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/matrix.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.fii-page header {
+    background-color: #224871; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fii-page header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.fii-page .nav-bar {
+    background-color: #1b4b7b; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.fii-page .nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.fii-page .nav-bar a:hover {
+    background-color: #6ba1cc;
+}
+
+.fii-page .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(3, 10, 25, 0.85); 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    line-height: 1.8;
+}
+
+.fii-page .container h2 {
+    color: #6ba1cc; 
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #1b4b7b; 
+}
+
+.fii-page .container p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.fii-page .section {
+    margin-bottom: 40px;
+}
+
+.fii-page .content-section {
+    background-color: #1b4b7b; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 6px solid #6ba1cc; 
+    transition: all 0.3s ease;
+    color: #ffffff; 
+}
+
+
+
+.fii-page .content-section h3 {
+    font-size: 1.5rem;
+    color: #6ba1cc;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.fii-page .content-section ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.fii-page .content-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.fii-page .footer {
+    background-color: #224871; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.fii-page .footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.fii-page .back-to-top {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #6ba1cc; 
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.fii-page .back-to-top:hover {
+    background-color: #1b4b7b; 
+}
+
